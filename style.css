@@ -9,41 +9,92 @@ body{
 
 .container{
     display: flex;
-   
 }
 .box{
-    position: relative;
-    height: 50vh;
-    width: 20vw;
-    background-color: aqua;
-    z-index: 10;
+    background-color: rgb(43, 45, 45);
+    border-radius: 6px;
 }
-
+.sidebar{
+    color: white;
+}
 .home{
     background-color: rgb(77, 75, 75);
     width: 20vw;
     height: 20vh;
     position: absolute;
     left:10px ;
+    top: 1vh;
 }
 .library{
     background-color: rgb(77, 75, 75);
     width: 20vw;
-    height: 50vh;
+    height: 57vh;
     position: absolute;
     top: 25vh;
     left:10px;
 }
 .profile{
     background-color: rgb(77, 75, 75);
-    width: 70vw;
-    height: 50vh;
+    width: 100vw;
+    height: 100vh;
     position: relative;
-    left: 10vw;
+    left: 16vw;
+    top: 1vh;
 }
 .music-bar{
     position: fixed;
     height: 15vh;
     width: 100vw;
     bottom: 0;
+}
+.home-element1{
+    display: flex;
+
+}
+.home-element{
+    position: relative;
+    top: 25px;
+    left: 20px;
+}
+.search{
+    position:relative;
+    top: 20px;
+    color: rgb(226, 218, 218) ;
+}
+.search2{
+    position: relative;
+    top: 15px;
+}
+
+.home-element2{
+    position: relative;
+    left: 70px;
+    bottom: 28px;
+}
+ a{
+    text-decoration: none;
+    color: rgb(226, 218, 218);
+}
+.library-element{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 10px;
+}
+.library-element-2{
+    display: flex;
+
+    position: relative;
+    left: 80px;
+    gap: 10px;
+}
+.btn1{
+    background-color: rgb(45, 44, 44);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 7px;
+    padding-left: 20px;
+    padding-right:20px;
+
 }
