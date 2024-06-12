@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+}
+
+.container{
+    display: flex;
+   
+}
+.box{
+    position: relative;
+    height: 50vh;
+    width: 20vw;
+    background-color: aqua;
+    z-index: 10;
+}
+
+.home{
+    background-color: rgb(77, 75, 75);
+    width: 20vw;
+    height: 20vh;
+    position: absolute;
+    left:10px ;
+}
+.library{
+    background-color: rgb(77, 75, 75);
+    width: 20vw;
+    height: 50vh;
+    position: absolute;
+    top: 25vh;
+    left:10px;
+}
+.profile{
+    background-color: rgb(77, 75, 75);
+    width: 70vw;
+    height: 50vh;
+    position: relative;
+    left: 10vw;
+}
+.music-bar{
+    position: fixed;
+    height: 15vh;
+    width: 100vw;
+    bottom: 0;
+}
