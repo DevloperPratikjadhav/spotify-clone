@@ -98,3 +98,61 @@ body{
     padding-right:20px;
 
 }
+.recents{
+    display: flex;
+    align-items: center;
+}
+.recent{
+    color: rgb(210, 214, 218);
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    position: absolute;
+    right: 5px;
+    top: 110px;
+}
+.recent:hover{
+    color: white;
+    font-size: larger;
+}
+.profile-sec{
+    height: 70px;
+    margin: 0px;
+  align-items:center;
+}
+.direction{
+    display: flex;
+    position: relative;
+    gap: 10px;
+    top: 24px;
+    left: 30px;
+}
+.circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 35px;
+    width: 35px;
+    background-color: rgb(39, 37, 37);
+    border-radius: 50%;
+
+}
+.profile2{
+    display: flex;
+    position: absolute;
+   right:310px;
+}
+.btn-p{
+    padding:10px 30px 10px 30px;
+    background-color: white;
+    border-radius: 28px;
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+.direction-2{
+    position: absolute;
+    bottom: 60px;
+   left: 350px;
+   gap: 30px;
+}
