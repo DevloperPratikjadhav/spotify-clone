@@ -36,10 +36,11 @@ body{
 .profile{
     background-color: rgb(77, 75, 75);
     width: 100vw;
-    height: 100vh;
-    position: relative;
-    left: 16vw;
+    height: 25vh;
+    position: fixed;
+    left: 22vw;
     top: 1vh;
+    z-index: 10;
 }
 .music-bar{
     position: fixed;
@@ -118,10 +119,12 @@ body{
 .profile-sec{
     height: 70px;
     margin: 0px;
-  align-items:center;
+  
 }
 .direction{
     display: flex;
+    height: 60px;
+    align-items: center;
     position: relative;
     gap: 10px;
     top: 24px;
@@ -136,17 +139,90 @@ body{
     width: 35px;
     background-color: rgb(39, 37, 37);
     border-radius: 50%;
+    cursor: pointer;
 
 }
 .profile2{
     display: flex;
     position: absolute;
-   right:310px;
+   right:390px;
+}
+.direction-2{
+    display: flex;
+    gap: 20px;
+    align-items: center;
 }
 .btn-p{
     padding:10px 30px 10px 30px;
     background-color: white;
     border-radius: 28px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 0.8rem;
-    font-weight: 400;
+    font-weight: 800;
+}
+.sec-2{
+    margin-top: 40px;
+    margin-left: 25px;
+}
+.sec-2 button:nth-child(1){
+    background: white;
+    color: black;
+}
+.content{
+    background-color: rgb(77, 75, 75);
+    position: relative;
+    left: 14vw;
+    top: 1vh;
+    height: 100vh;
+    width: 100vw;
+}
+.sec1{
+    display: flex;
+    gap: 30px;
+    margin-top: 30vh;
+    position: relative;
+    left: 15px;
+}
+.box1{
+    height: 240px;
+    width: 168px;
+    
+}
+.s-box{
+    height: 150px;
+    width: 168px;
+    background-color: aliceblue;
+    border-radius: 8px;
+}
+.s-box img{
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+.box1 h3{
+    font-size: 1.2rem;
+    font-weight: bolder;
+    color: white;
+    position: relative;
+    top: 20px;
+    left: 10px;
+}
+.box1 p{
+    font-size: 0.8rem;
+    color:rgb(214, 210, 210);
+    font-weight: 600;
+    position: relative;
+    top: 10px;
+}
+.overlay{
+    position:relative;
+  bottom: 60px;
+  left: 60%;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .2s ease-in;
+}
+.box1:hover .overlay{
+    height:100%;
 }
