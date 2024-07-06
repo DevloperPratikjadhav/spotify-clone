@@ -5,7 +5,9 @@
 
 body{
     background-color: black;
+    overflow-x: hidden;
 }
+
 
 .container{
     display: flex;
@@ -35,8 +37,9 @@ body{
 }
 .profile{
     background-color: rgb(77, 75, 75);
-    width: 100vw;
+    width: 1494px;
     height: 25vh;
+    margin-left: 70px;
     position: fixed;
     left: 22vw;
     top: 1vh;
@@ -225,4 +228,10 @@ body{
 }
 .box1:hover .overlay{
     height:100%;
+}
+.sec2{
+    display: flex;
+    gap: 30px;
+    position: relative;
+    left: 15px;
 }
