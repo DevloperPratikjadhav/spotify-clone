@@ -1,9 +1,10 @@
 # spotify-clone
 <p> This is a front-end clone of the Spotify web application. It replicates the user interface of Spotify, providing a similar look and feel to the original application. The project is built using HTML, CSS, and JavaScript, and hosted on GitHub Pages.</p>
-##Techstack Used
+
+## TechstackUsed
 <h4>HTML | CSS </h4>
 
-##sneak peak
+## sneak peak🚀
 <a href="">check now</a>
 
 <h1> Contact Info</h1>
