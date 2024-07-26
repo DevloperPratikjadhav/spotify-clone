@@ -5,10 +5,10 @@
 <h4>HTML | CSS </h4>
 
 ## sneak peak🚀
-<a href="">check now</a>
+<a href="https://devloperpratikjadhav.github.io/spotify-clone/">check now</a>
 
 <h1> Contact Info</h1>
 For any questions or suggestions, please contact me at:
 
 Email: pratikjadhav6632@gmail.com <br>
-GitHub: https://github.com/DevloperPratikjadhav/Netflix-clone
+GitHub: https://github.com/DevloperPratikjadhav
